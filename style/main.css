@@ -1,0 +1,36 @@
+body{
+    margin: 0
+}
+*{
+    box-sizing: border-box
+}
+main{
+    width: 100%;
+    display: flex;
+    justify-content: center
+}
+ul{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: 0;
+    padding: 0;
+    list-style: none
+}
+ul li{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+ul li div.partida{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+ul li div.partida:nth-child(2n){
+    background-color: #e0e0e0
+}
+ul li div.partida > div{
+    display: flex;
+    align-items: center
+}
